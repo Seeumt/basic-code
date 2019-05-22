@@ -17,8 +17,27 @@ public class Manager02 extends User01{
         ArrayList<Integer> redlist = new ArrayList<>();
 
         //首先判断一下自己的余额
-        int leftMoney = super.getMoney();//被继承者赋予你的方法，继承者们都可以使用
-        return redlist;
+        int leftMoney = super.getMoney();//被继承者赋予你的方法，继承者们都来使用
+        if (totalMoney>leftMoney){
+            System.out.println("钱不够了");
+            return redlist;//返回空集合 ，安全检查
+        }
+
+            //leftMoney-=totalMoney;
+            //重新设置金额
+            super.setMoney(leftMoney-totalMoney);
+
+            //发红包需要平均分成count份
+            int avg = totalMoney/count;
+            int mod = totalMoney%count;
+            for (int i = 0; i < count-1; i++) {
+                redlist.add(avg);
+            }
+            int last = avg + mod;
+            redlist.add(last);
+            return redlist;
+
+
     }
 //    public void send(int money, int count){
 //
