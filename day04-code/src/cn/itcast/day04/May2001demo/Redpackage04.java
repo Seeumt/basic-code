@@ -2,7 +2,7 @@ package cn.itcast.day04.May2001demo;
 
 import java.util.ArrayList;
 
-public class Redpackage {
+public class Redpackage04 {
     public static void main(String[] args) {
         Manager02 manager02 = new Manager02("群主",100);
 
