@@ -17,10 +17,12 @@ public class Maindemo11 {
 
         hero.attack();
 
-        Weapondemo10 AWM = new Weapondemo10("AWM");
+       // Weapondemo10 AWM = new Weapondemo10("AWM");
+        Weapondemo10 AWM = new Weapondemo10();
+        AWM.setCode("AWM");
 
         Herodemo09 hero1 = new Herodemo09("dd",20,AWM);
         hero1.attack();
     }
 }
-//其实任何一种数据类型都可以作为成员变量的类型
+        //其实任何一种数据类型都可以作为成员变量的类型

@@ -11,6 +11,9 @@ public class Weapondemo10 {
         this.code = code;
     }
 
+    public void FindMethod(){
+        System.out.println("我是新来的");
+    }
     public String getCode() {
         return code;
     }
