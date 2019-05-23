@@ -33,6 +33,7 @@ public class Manager02 extends User01{
             for (int i = 0; i < count-1; i++) {
                 redlist.add(avg);
             }
+
             int last = avg + mod;
             redlist.add(last);
             return redlist;
