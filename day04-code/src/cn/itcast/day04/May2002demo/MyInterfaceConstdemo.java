@@ -8,4 +8,5 @@ package cn.itcast.day04.May2002demo;
 public class MyInterfaceConstdemo {
     public static final int num=10;
     int sum=0;
+    int NUM_ID =1;
 }

@@ -11,7 +11,7 @@ public class MyInterfaceDefaultAdemo implements MyInterfaceDefaultdemo {
 
     public static void main(String[] args) {
         MyInterfaceDefaultAdemo a = new MyInterfaceDefaultAdemo();
-        a.method2();//调用从接口继承下来的默认方法，一般是在本类里面找，没有的话向上找借口
+        a.method2();//调用从接口继承下来的默认方法，一般是在本类里面找，没有的话向上找接口
         a.method1();
     }
 
