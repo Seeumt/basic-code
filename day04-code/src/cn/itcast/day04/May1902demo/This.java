@@ -16,7 +16,7 @@ public class This extends Fu {
     public  This(){
         this(5,6);
 //        this(6); this语句必须放在最前面一句
-        System.out.println("*****aaa******");
+        System.out.println("******aaa******");
     }
 
     public  This(int a ,int b){

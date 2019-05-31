@@ -15,8 +15,8 @@ public class Herodemo09 {
         this.weapondemo10 = weapondemo10;
     }
 
-    public void attack(){
-        System.out.println("年龄为"+age+"的"+name+"正在用"+ weapondemo10.getCode()+"发动进攻");
+    public void attack() {
+        System.out.println("年龄为" + age + "的" + name + "正在用" + weapondemo10.getCode() + "发动进攻");
         weapondemo10.FindMethod();
     }
 

@@ -9,7 +9,7 @@ public class Main {
         computer.useDevice(usb);
 
 //            向上转型
-//          USB usb1 = new Mouse();
+//          USB usb1 = new Mouse();  //匿名对象的思路
 //          computer.useDevice(usb1);
 //
           Keyboard keyboard = new Keyboard();//发生了自动转型，向上转成了要求的“USB”类型
