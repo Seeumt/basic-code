@@ -3,10 +3,13 @@ package cn.itcast.day04.May2002demo;
 /**
  * 在任何版本的Java 中，接口都可以定义抽象方法
  * 接口当中的抽象方法，修饰符必须是两个固定的关键字：public abstract(可以选择性地不写)
+ *
+ *
  */
-public interface MyInterfaceAbstractdemo {
+public interface MyInterfaceAbstractdemo02 {
 
     public abstract void methodAbs();
+
 }
 
 /**

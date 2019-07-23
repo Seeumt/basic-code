@@ -10,7 +10,7 @@ public class HashCodedemo02 {
         int n2 =p2.hashCode();
         System.out.println(n1);
         System.out.println(n2);
-        System.out.println(p1);
+        System.out.println(p1);//改写了获取地址值的那个方法
         System.out.println(p2);
 /**
  * 1163157884  @4554617c 一样

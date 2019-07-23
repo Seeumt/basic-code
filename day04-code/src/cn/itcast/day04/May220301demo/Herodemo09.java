@@ -1,5 +1,9 @@
 package cn.itcast.day04.May220301demo;
 
+/**
+ *       类当作成员变量的数据类型
+ *       所以便可以自己定义一个类作为成员变量的数据类型
+ */
 public class Herodemo09 {
 
     private String name;

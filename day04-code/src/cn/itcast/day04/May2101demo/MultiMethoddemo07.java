@@ -7,7 +7,8 @@ package cn.itcast.day04.May2101demo;
  *
  * 成员变量口诀：编译看左边，运行还看左边
  */
-public class MultiMethoddemo07 {
+public class
+MultiMethoddemo07 {
     public static void main(String[] args) {
         Fu04 obj = new Zi05();
 

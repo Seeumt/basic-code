@@ -1,8 +1,9 @@
 package cn.itcast.day04.demo04;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Person {
+public class Person implements Serializable {
     String name;
     int age;
 
